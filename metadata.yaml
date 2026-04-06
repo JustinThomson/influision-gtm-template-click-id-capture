@@ -2,6 +2,9 @@ name: influise-click-id-capture
 display_name: Influise - Click ID Capture
 homepage: "https://influise.com/"
 documentation: "https://influise.com/docs"
+versions:
+  - sha: 926652e7921cb275b51913a5b1f5a5ed7b248404
+    changeNotes: Initial release.
 description: |
   Reads the `clid` parameter from the URL and stores it in a persistent cookie for influencer tracking.  
   Last-click attribution; cookie lasts 1 year; overwrites previous cookie if new click occurs.
